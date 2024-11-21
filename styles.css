@@ -1,0 +1,145 @@
+@import url('https://fonts.cdnfonts.com/css/seven-segment');
+body{
+    background: #2B1167;
+    background: radial-gradient(at center top, #2B1167, #030102);
+    min-height: 100vh;
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.audiowide-regular {
+    font-family: "Audiowide", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.title{
+    font-weight: bolder;
+    font-size: 40px;
+    font-style: italic;
+    color: rgb(14, 210, 0);
+    text-shadow: 3px 4px 5px #000;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 50px;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #250a41;
+    box-shadow: #030102 0 0 40px 15px;
+    border-radius:50px;
+    height: 250px;
+    width: 500px;
+}
+.display{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #066d126a;
+    outline: 2px solid black;
+    width: 100%;
+    height: 150px;
+    border-radius: 10px;
+    box-shadow: inset 0 0 10px 0 black;
+}
+span{
+    font-family: 'Seven Segment', sans-serif;
+    font-weight: bolder;
+    font-size: 30px;
+    color: black;
+}
+
+#text-input{
+    color: #000;
+    font-size: 20px;
+    height: 30px;
+    width: 24rem;
+    padding: 10px;
+    background-color: #066d126a;
+    border-radius: 10px;
+    border-style: none;
+    box-shadow: inset 0 0 10px 0 black;
+    border: 2px solid #1b031d;
+    font-family: 'Seven Segment', sans-serif;
+    font-weight: bold;
+    
+}
+input:focus{
+    outline: none;
+}
+button{
+    background-color: #4a4a4a;
+    box-shadow: 0 10px 0 #3b3b3b;
+    margin-top: -10px;
+    font-weight: bold;
+    border-radius: 10px;
+    height: 40px;
+    width: 70px;
+    border: none;
+    cursor: pointer;
+    outline: 2px solid #7d3e3e14;
+}
+button:hover{
+    box-shadow: 0 9px 0 #3b3b3b;
+    transform: translateY(1px);
+}
+button:active{
+    box-shadow: 0 5px 0 #3b3b3b;
+    transform: translateY(5px);
+}
+.flex-row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+
+}
+.description{
+    width: 500px;
+    text-align: justify;
+    color: rgb(14, 210, 0);
+    font-weight: lighter;
+}
+
+@media only screen and (width < 900px) 
+{
+    .card{
+        height: 300px;
+        width: 250px;
+        padding: 20px;
+        border-radius: 25px;
+    }
+    #text-input{
+        width: 90%;
+        height: 20px;
+    }
+    .flex-row{
+        flex-direction: column;
+        gap: 10px;
+    }
+    button{
+        margin-top: 0px;
+        box-shadow: 0 7px 0 #3b3b3b;
+        height: 30px;
+        width: 100%;
+        
+    }
+    button:active{
+        box-shadow: 0 2px 0 #3b3b3b;
+        transform: translateY(5px);
+    }
+    .title{
+        font-size: 20px;
+    }
+    .description{
+        font-size: 10px;
+        width: 250px;
+    }
+    span{
+        font-size: 20px;
+        text-align: center;
+    }
+}
