@@ -6,7 +6,7 @@ This project is a Palindrome Checker built with JavaScript. It allows users to c
 ![Project Screenshot](https://raw.githubusercontent.com/izzel24/palindrome/refs/heads/main/screenshot_project.png)
 
 ## Live Demo 🚀
-Check out the live demo of the project here: [Palindrome Checker](https://izzel24.github.io/Palindrome-Checker/)
+Check out the live demo of the project here: [Palindrome Checker](https://izzel24.github.io/palindrome/)
 
 ## Features 🛠️
 - **Text Input**: Users can input any text or number to check.
